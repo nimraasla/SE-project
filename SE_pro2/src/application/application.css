@@ -1,0 +1,7 @@
+.root
+ {
+    -fx-background-image: url("/application/img1.avif");    /* Path to your image */
+    -fx-background-size: cover;                     /* Scale image to cover the area */
+    -fx-background-position: center;                /* Center the image */
+    -fx-background-repeat: no-repeat;               /* Prevent tiling */
+}

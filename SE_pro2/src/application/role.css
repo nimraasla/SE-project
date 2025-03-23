@@ -1,0 +1,59 @@
+/* JavaFX CSS */
+.root {
+    -fx-background-image: url("file:/C:/Users/ACG/OneDrive/Desktop/SE_pro2/src/application/6.jpg"); /* Image in resources/application/ */
+	-fx-background-size: contain;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+}
+
+.button {
+    -fx-background-color: #F5F5DC;
+    -fx-border-color: #000000;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 4, 0, 0, 2);
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+    -fx-font-family: "Akzidenz Grotesk BQ Medium, -apple-system, BlinkMacSystemFont, sans-serif";
+    -fx-font-size: 14;
+    -fx-font-weight: normal;
+    -fx-padding: 10 25 10 25;
+	-fx-pref-width:150;
+}
+
+.button:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 9, 0, 0, 3);
+    -fx-translate-y: -2;
+}
+
+.email-label {
+    -fx-font-family: "Akzidenz Grotesk BQ Medium, -apple-system, BlinkMacSystemFont, sans-serif";
+    -fx-font-size: 17;
+    -fx-text-fill: black;
+    -fx-font-style: italic;
+    -fx-padding: 0 10 0 0;
+}
+
+.password-label {
+    -fx-font-family: "Akzidenz Grotesk BQ Medium, -apple-system, BlinkMacSystemFont, sans-serif";
+    -fx-font-size: 17;
+    -fx-text-fill: black;
+    -fx-font-style: italic;
+    -fx-padding: 0 10 0 0;
+}
+
+.text-field {
+    -fx-background-color: #F5F5DC;
+    -fx-border-color: #000000;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-text-fill: black;
+    -fx-font-family: "Akzidenz Grotesk BQ Medium, -apple-system, BlinkMacSystemFont, sans-serif";
+    -fx-font-size: 12; /* Reduced font size to allow smaller height */
+    -fx-padding: 3 15 3 15; /* Reduced vertical padding to 3px */
+    -fx-pref-width: 200;
+    -fx-pref-height: 30; /* Practical height */
+    -fx-min-height: 30; /* Try to enforce a smaller minimum height */
+}
